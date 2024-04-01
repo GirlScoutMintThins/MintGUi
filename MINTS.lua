@@ -160,7 +160,7 @@ Aimbot.Settings.LockPart = Parts[1]; Values:AddDropdown({
 		Aimbot.Settings.LockPart = New
 	end,
 	List = Parts,
-	Nothing = "Head"
+	Nothing = "UpperTorso"
 }).Default = Parts[1]
 
 Values:AddTextbox({ -- Using a Textbox instead of a Keybind because the UI Library doesn't support Mouse inputs like Left Click / Right Click...
